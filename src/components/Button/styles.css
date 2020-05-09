@@ -1,0 +1,10 @@
+.btn {
+  width: max-content;
+  padding: 15px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn.primary {
+  background-color: #4189e5;
+  color: #fff;
+}

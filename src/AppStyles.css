@@ -1,0 +1,24 @@
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.action-container {
+  margin-top: 50px;
+  display: flex;
+}
+.year-selector {
+  margin-left: 50px;
+}
+#textInput {
+  width: 640px;
+  height: 320px;
+}
+#yearInput {
+  width: 200px;
+  font-size: 25px;
+  padding: 10px 10px;
+  height: 26px;
+}
+.btn-container {
+  margin-top: 20px;
+}

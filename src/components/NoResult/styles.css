@@ -1,0 +1,17 @@
+.sad-smiley-container {
+  position: relative;
+  font-size: 50px;
+  color: #9ea7ad;
+  top: -30px;
+  left: -15px;
+}
+.sad-smiley-container .smiley-eyes {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 0;
+  left: 9px;
+}
+.sad-smiley-container .smiley-lips {
+  position: absolute;
+  top: 10px;
+}

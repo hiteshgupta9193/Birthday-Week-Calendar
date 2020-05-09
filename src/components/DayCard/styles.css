@@ -1,0 +1,38 @@
+.day-card-container .birthday-count {
+  margin-top: 10px;
+}
+.day-card-container .day-card-title-container {
+  height: 30px;
+  background-color: #c3bfed;
+  text-align: right;
+  color: #fff;
+  padding: 9px 10px;
+  box-sizing: border-box;
+  border-radius: 5px 5px 0 0;
+}
+.day-card-container .day-card-birthdays-container {
+  height: 160px;
+  width: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: #fff;
+  border: 1px solid #cdd1d2;
+  border-top: none;
+}
+.day-card-container .day-card-birthdays-container.no-result {
+  height: 160px;
+  width: 160px;
+  background-color: #dfe4e5;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.day-card-container .day-card-birthdays-container .birthday-item {
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
